@@ -10,7 +10,7 @@ create function to fetch API data when button is clicked
 var inputFieldEl = document.querySelector("#city");
 var btn = document.querySelector("#get-weather");
 
-
+// Fetches data of a given city
 function fetchData() {
     var cityName = inputFieldEl.value;
     var apiKey = '162c997af48d86f877c2812ef39f3538';
